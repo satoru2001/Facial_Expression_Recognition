@@ -10,7 +10,7 @@
 - Replace them/use the one in Facial_Expression_Recognition folder
 - Run main.py file
 - Open browser and go to 0.0.0:5000
-# Info
+## Info
 - Trained on a dataset published in Kaggle compitition and got around 65% accuracy(71% is accuracy of winner)
 - Dataset contains Imbalenced data on 7 Universal expressions
 - Done 2 recognition system one with inbuilt 'categorical_crossentropy' loss and another with custom 'weighted_categorical_crossentropy' to counter class Imbalence
@@ -18,6 +18,7 @@
 
 - Positive:Blue
 - Negative:Orange
+## Weighted Loss Function
 
 ```
 def get_weighted_loss(pos_weights, neg_weights, epsilon=1e-7):
